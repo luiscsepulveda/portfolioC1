@@ -9,7 +9,7 @@
 
 }
 
-
+/*  Style body  background from http://www.w3.org/2000/svg */
 
 body{
 background-color: #000000;
@@ -18,6 +18,9 @@ background-attachment: fixed;
 background-size: cover;
 
 }
+
+/*  Style Header, NavBar, logo  */
+
 
 .header{
     display: flex;
@@ -52,6 +55,17 @@ background-size: cover;
     
 }
 
+.nav_links li a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+.nav_links li a:hover{
+    color: darkorange;
+}
+
+/*  Style Banner, pictura, carrousel  */
 
 .home_banner{
     display: flex;
@@ -64,6 +78,7 @@ background-size: cover;
     font-size: 25px;
     text-align: center;
     font-style: oblique;
+    line-height: 50px;
 
 
 }
@@ -103,7 +118,7 @@ background-size: cover;
 /*  Style Footer  */
 #footerContainer{
     width: 100%;
-    height: 150px;
+    height: 100px;
 }
 
 
@@ -155,6 +170,7 @@ background-size: cover;
 
 }figure{
     color: aliceblue;
+    text-align: center;
 }
 
 .link_port:hover{
@@ -163,7 +179,7 @@ background-size: cover;
 
 .portfolio_title{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 800;
     margin-top: 4rem;
 }
@@ -203,10 +219,18 @@ background-size: cover;
 
 /* About me */
 
+.about_title{
+    text-align: center;
+    font-size: 70px;
+}
+
 .hobbies{
-    gap: 25px;
+    gap: 50px;
     width: auto;
+    width: 100%;
     height: 600px;
-    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    
 
 }
